@@ -1,0 +1,44 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.AdminApp {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.HeaderAdmin {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  border-bottom: solid 1px #00000080;
+}
+
+.FooterAdmin {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: solid 1px #00000080;
+}
+
+.SideBarAndContent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.SideBarAdmin {
+  height: 100%;
+}
+
+.AdminContent {
+  padding-left: 12px;
+}
